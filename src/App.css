@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'VT323';
+	src: url('/assets/fonts/VT323-Regular.ttf') format('truetype');
+}
+
 .App {
   text-align: center;
 }
@@ -11,10 +16,57 @@
   font-size: calc(10px + 2vmin);
 }
 
-.header {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+#header {
+  width: 100%;
+  padding: 0;
+}
+
+#header-contents {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  width: 75%;
-  justify-content: center;;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  height: 3rem;
+  padding: 0.7rem 0.4rem;
+}
+
+#name {
+  line-height: 3.5rem;
+  padding: 0 0.5rem;
+}
+
+#title-name {
+  color: white;
+  font-size: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#footer {
+  padding-top: 2.3rem;
+  padding-bottom: 1.7rem;
+  display: grid;
+}
+
+#contact-points {
+  text-align: center;
+}
+
+#contact-points > a {
+  padding: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

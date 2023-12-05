@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/header';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -7,9 +8,10 @@ function App() {
       <Header />
       <header className="App-header">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          TO BE FILLED IN LATER
         </p>
       </header>
+      <Footer />
     </div>
   );
 }

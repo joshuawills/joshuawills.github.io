@@ -2,9 +2,14 @@ import '../App.css';
 
 function Header() {
     return (
-        <div className="header">
-            <h1 style={{ margin: 0 }}>@joshuawills</h1>
-        </div>
+        <nav id= "header">
+            <div id = "header-contents">
+                <img src="images/header.png" alt="Logo Image" id = "logo" />
+                <div id = "name">
+                    <p id="title-name">joshua wills</p>
+                </div>
+            </div>
+        </nav>
     );
 }
 
