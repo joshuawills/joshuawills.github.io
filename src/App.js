@@ -1,16 +1,15 @@
 import './App.css';
 import Header from './components/header';
 import Footer from './components/footer';
+import Brief from './components/brief';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <header className="App-header">
         <p>
-          TO BE FILLED IN LATER
+          <Brief />
         </p>
-      </header>
       <Footer />
     </div>
   );
