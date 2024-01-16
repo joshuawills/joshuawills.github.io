@@ -47,6 +47,14 @@ body {
   align-items: center;
 }
 
+p {
+  font-size: 1.25rem;
+}
+
+pre {
+  font-size: 1.25rem;
+}
+
 #brief {
   width: 95%;
   max-width: 900px;
@@ -61,6 +69,7 @@ h1 {
 }
 
 li {
+  font-size: 1.25rem;
   margin-top: 0.5rem;
 }
 
@@ -104,9 +113,10 @@ li {
 
 a {
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
+  text-decoration: underline;
   cursor: pointer;
 }
