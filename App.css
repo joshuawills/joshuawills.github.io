@@ -88,10 +88,15 @@ li {
 }
 
 #title-name {
-  color: white;
+  color: #EDEADE;
   font-size: 3rem;
   display: inline-block;
   vertical-align: middle;
+}
+
+#title-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 #footer {
@@ -111,12 +116,31 @@ li {
   padding: 1rem;
 }
 
+img {
+  max-width: 750px;
+  margin-top: 3rem;
+  border: 5px solid #555;
+  align-items: center;
+}
+
 a {
-  color: white;
+  color: #EDEADE;
   text-decoration: none;
+  font-size: 1.25rem;
 }
 
 a:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+#image-and-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#image-and-caption > i {
+  margin-top: 0.5rem;
 }
